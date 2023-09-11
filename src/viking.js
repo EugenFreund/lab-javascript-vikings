@@ -108,31 +108,34 @@ class War {
         }
     }
 
-    battle( attacker , attacked) {
-        let retval = attacked.receiveDamage(attacker.attack());
-    }
+    // battle( attacker , attacked) {
+    //     let retval = attacked.receiveDamage(attacker.attack());
+    // }
 
 
 }
 
 
-let viking1 = new Viking("Eugen", 100, 50);
-let saxon1 = new Saxon(100, 10);
 
 
 
 
-let war1 = new War();
 
-war1.addViking(viking1);
-war1.addSaxon(saxon1);
+// let war1 = new War();
 
-console.log(war1.saxonArmy);
-console.log(war1.vikingArmy)
+// war1.addViking(viking1);
+// war1.addSaxon(saxon1);
 
-console.log(war1.saxonAttack());
-console.log(war1.saxonAttack());
+// console.log(war1.saxonArmy);
+// console.log(war1.vikingArmy)
+
+// console.log(war1.saxonAttack());
+// console.log(war1.saxonAttack());
 
 
-console.log(war1.saxonArmy);
-console.log(war1.vikingArmy)
+// console.log(war1.saxonArmy);
+// console.log(war1.vikingArmy)
+      
+
+
+
